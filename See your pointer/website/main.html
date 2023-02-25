@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Someone See Your Pointer</title>
+    <script async src="main.js"></script>
+</head>
+
+<body>
+    <div class="imagebox" onmousemove="showCoords(event)" onmouseleave="mouseout(event)" onmouseenter="mousein(event)">
+        <img id="cursor" src="cursor.png" alt="Computer man" width="15" height="18">
+
+        <img id="image" src="background.jpg" width="500" height="500">
+        <div class="centered_gif">
+            <img id="gif" src="process.gif" alt="Computer man" width="250" height="250">
+        </div>
+        <div class="centered_text">
+            <h4 id="text">Hold pointer for finding best image which see your pointer</h4>
+        </div>       
+        <h3 id="view">Views : <span id="visits"></span></h3>
+
+    </div>
+    <script src="main.js"></script>  
+</body>
+
+</html>

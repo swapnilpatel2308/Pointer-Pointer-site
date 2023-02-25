@@ -1,0 +1,6 @@
+step1 => collect data from google like images
+step2 => resize the data (size == 1100,750)
+step3 => rename images
+step4 => detect eye and store marked data imto temp data folder
+step5 => show temp data folder and remove incorrectdetected images(this step not working because mediapipe libreary is not give prope resopnveso i create my own application for storing image eye postion)
+
